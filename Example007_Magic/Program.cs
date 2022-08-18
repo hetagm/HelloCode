@@ -6,7 +6,7 @@ int xa = 1;
 int ya = 1;
 int xb = 1; 
 int yb = 30;
-int xc = 80; 
+int xc = 60; 
 int yc = 30;
 
 Console.SetCursorPosition(xa, ya);
@@ -22,7 +22,7 @@ int x = xa, y = xb;
 
 int count = 0;
 
-while(count < 10);
+while(count < 10000)
 {
 
     int what = new Random().Next(0, 3); // [0;3 ] 0 1 2
